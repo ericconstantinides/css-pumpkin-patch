@@ -1,9 +1,2 @@
 .moon {
-  position: absolute;
-  right: 10%;
-  top: 10%;
-  height: clamp(80px, 10vw, 140px);
-  width: clamp(80px, 10vw, 140px);
-  border-radius: 1000px;
-  background: radial-gradient(closest-corner at 50px 50px, #ddd, #999);  
 }

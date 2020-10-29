@@ -1,37 +1,20 @@
 .pumpkin {
-  position: absolute;
+
 }
 .pumpkin--inner {
-  position: relative;
-  height: 100%;
-  width: 100%;
+
 }
 .pumpkin__longitude {
-  position: absolute;
-  background: #ac3f0b;
-  border-radius: 120% 120% 140% 140%;
-  transform: translate(-50%, 0);
-  border-left: 2px solid #51380b;
-  border-right: 2px solid #51380b;
-  top: 15%;
-  left: 50%;
-  height: 100%;
+
 }
 .pumpkin__longitude--1 {
-  width: 100%;
+
 }
 .pumpkin__longitude--2 {
-  width: 60%;
+
 }
 .pumpkin__longitude--3 {
-  width: 20%;
+
 }
 .pumpkin__stem {
-  position: absolute;
-  left: 53%;
-  top: 0;
-  width: 10%;
-  height: 20%;
-  transform: translateX(-50%) rotate(15deg);
-  background: darkgreen;
 }
