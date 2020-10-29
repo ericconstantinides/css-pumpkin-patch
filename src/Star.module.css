@@ -1,0 +1,7 @@
+.star {
+  width: 2px;
+  height: 2px;
+  border-radius: 1000px;
+  background: #aaa;
+  position: absolute;
+}
