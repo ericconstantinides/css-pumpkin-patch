@@ -1,2 +1,9 @@
 .pumpkin-patch {
+  position: absolute;
+  bottom: 0;
+  left: -30vw;
+  right: -30vw;
+  height: 40vh;
+  background: linear-gradient(#1e1d1d, #3a1e1e);
+  border-radius: 50% 50% 0 0;
 }

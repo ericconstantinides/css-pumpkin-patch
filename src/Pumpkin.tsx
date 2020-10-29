@@ -7,7 +7,12 @@ const cj = cssJoinFactory(styles)
 const Pumpkin: React.FC = () => {
   return (
     <div className={cj('pumpkin')} >
-      &nbsp;
+      <div className={cj('pumpkin--inner')} >
+        <div className={cj('pumpkin__stem')} />
+        <div className={cj('pumpkin__longitude pumpkin__longitude--1')} />
+        <div className={cj('pumpkin__longitude pumpkin__longitude--2')} />
+        <div className={cj('pumpkin__longitude pumpkin__longitude--3')} />
+      </div>
     </div>
   )
 }

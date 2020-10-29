@@ -1,5 +1,9 @@
 .pumpkin {
-
+  position: absolute;
+  left: 40%;
+  height: 100px;
+  width: 100px;
+  outline: 1px solid red;
 }
 .pumpkin--inner {
 

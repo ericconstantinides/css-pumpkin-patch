@@ -5,7 +5,7 @@ import styles from './Moon.module.css'
 const cj = cssJoinFactory(styles)
 
 const Moon = () => {
-  return <div className={cj('moon')}></div>
+  return <div className={cj('moon')} />
 }
 
 export default Moon
