@@ -3,22 +3,39 @@
   left: 40%;
   height: 100px;
   width: 100px;
-  outline: 1px solid red;
 }
 .pumpkin--inner {
-
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 .pumpkin__longitude {
-
+  position: absolute;
+  background: #ac3f0b;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 0;
+  border-radius: 50%;
+  border-left: 2px solid #51380b;
+  border-right: 2px solid #51380b;
 }
 .pumpkin__longitude--1 {
-
+  width: 100%;
 }
 .pumpkin__longitude--2 {
-
+  width: 60%;
 }
 .pumpkin__longitude--3 {
-
+  width: 20%;
 }
 .pumpkin__stem {
+  position: absolute;
+  top: 0;
+  left: 53%;
+  width: 10%;
+  height: 20%;
+  transform: translate(-50%, 0) rotate(15deg);
+  background: darkgreen;
+  border-radius: 2px 2px 0 0;
 }
